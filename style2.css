@@ -1,0 +1,106 @@
+@media only screen and (min-width:400px) and (max-width:767px){
+    .header{
+        height: 1000px;
+        width: 500px;
+    }
+    .nav{
+        display: block;
+        height: 150px;
+    }
+    .banner{
+        display: block;
+        height: 500px;
+
+    }
+    .man{
+        height: 505px;
+    }
+    .png-items{
+        height: 1000px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 40px;
+    }
+    .Service{
+        height: 2100px;
+    }
+    .outer{
+        height: 900px;
+        margin-top: 30px;
+        display: block;
+    }
+    .inside{
+        width: 350px;
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+    .Contact{
+        height: 1200px;
+        display: block;
+    }
+    .img{
+        width: 500px;
+    }
+    .footer{
+        height: 1200px;
+        display: flex;
+        flex-direction: column;
+    }
+    .sec-footer{
+        margin-top: 20px;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:993px){
+    .header{
+        height: 1000px;
+        width: 500px;
+    }
+    .nav{
+        display: block;
+        height: 150px;
+    }
+    .banner{
+        display: block;
+        height: 500px;
+
+    }
+    .man{
+        height: 505px;
+    }
+    .png-items{
+        width: 60%;
+        height: 1000px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 40px;
+    }
+    .Service{
+        width: 65%;
+        height: 2100px;
+    }
+    .outer{
+        height: 900px;
+        margin-top: 30px;
+        display: block;
+    }
+    .inside{
+        width: 350px;
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+    .Contact{
+        height: 1200px;
+        display: block;
+    }
+    .img{
+        width: 500px;
+    }
+    .footer{
+        height: 1200px;
+        display: flex;
+        flex-direction: column;
+    }
+    .sec-footer{
+        margin-top: 20px;
+    }
+}

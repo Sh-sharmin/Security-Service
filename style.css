@@ -1,0 +1,116 @@
+*{
+    margin: 0%;
+    padding: 0;
+    font-family: Roboto, Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+body {
+    overflow-x: hidden;
+}
+.header {
+    background-image: url("bg.jpg"), linear-gradient(rgba(145, 145, 239, 0.3), rgba(0, 0, 255, 0.2));
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-blend-mode: overlay;
+    height: 780px;
+    width: 100vw;
+}
+.nav{
+    display: flex;
+    height: 100px;
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(234, 153, 2);
+}
+.logo{
+    margin-top:20px;
+    margin-left: 180px;
+    margin-right: 600px;
+}
+.nav-items{
+    font-size: 1.3rem;
+    font-weight: bolder;
+    cursor: pointer;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner{
+    display: flex;
+}
+.text{
+    width: 55%;
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.button {
+    font-size: 1rem;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+}
+.png-items{
+    margin-left: 70px;
+    height: 250px;
+    width:90%;
+    background-color:rgb(238, 232, 232);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.png{
+    width:150px;
+}
+.Service{
+    margin-top: 40px;
+    height: 800px;
+    text-align: center;
+}
+.outer{
+    margin-top: 30px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.inside{
+    width: 25%;
+    border: 1px solid black;
+}
+.Contact{
+    display: flex;
+    height: 423px;
+    margin-top: 50px;
+}
+.img{
+    width: 50%;
+}
+.cont-text{
+    width: 50%;
+    margin-right: 50px;
+}
+.call{
+    display: flex;
+}
+.footer{
+    display: flex;
+    height: 270px;
+    background-color:rgb(24, 24, 24);
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 20px;
+}
+.sec{
+    display: flex;
+    align-items: center;
+}
+.sec-footer{
+    width: 200px;
+    text-align: center;
+    margin-right: 55px;
+}
